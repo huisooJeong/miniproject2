@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>전화 지원</fullName>
+        <default>true</default>
+        <label>전화 지원</label>
+    </standardValue>
+    <standardValue>
+        <fullName>웹 지원</fullName>
+        <default>false</default>
+        <label>웹 지원</label>
+    </standardValue>
+</StandardValueSet>

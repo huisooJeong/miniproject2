@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>초안</fullName>
+        <default>true</default>
+        <label>초안</label>
+    </standardValue>
+    <standardValue>
+        <fullName>승인 처리 중</fullName>
+        <default>false</default>
+        <label>승인 처리 중</label>
+    </standardValue>
+    <standardValue>
+        <fullName>활성화됨</fullName>
+        <default>false</default>
+        <label>활성화됨</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <inlineHelpText>참조 엔티티의 상위 계정</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdjustmentAmount</fullName>
+        <inlineHelpText>거래의 소계에 기여하는 조정</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>Balance</fullName>
+        <inlineHelpText>스냅샷 참조 엔티티의 최종 잔액입니다. 융자의 참조 엔티티가 대변 메모, 차변 메모, 인보이스, 지불 또는 환불일 경우 융자의 결과 잔액에서 상속됩니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyAmount</fullName>
+        <inlineHelpText>세금을 포함한 총액에 필요한 통화 변환을 기반으로 값을 정의합니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyBalance</fullName>
+        <inlineHelpText>결과 잔액에 필요한 통화 변환을 기반으로 값을 정의합니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyFxDate</fullName>
+        <inlineHelpText>환율 결정에 사용된 날짜입니다. 추후 통화 변환 계산 시 사용할 수 있도록 이 값을 정의합니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyFxRate</fullName>
+        <inlineHelpText>기본 통화 FX 날짜에 따른 환율입니다. 추후 통화 변환 계산 시 사용할 수 있도록 이 값을 정의합니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyIsoCode</fullName>
+        <inlineHelpText>이 계정에 정의된 해당 국가의 통화입니다. 추후 통화 변환 계산 시 사용할 수 있도록 이 값을 정의합니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>ChargeAmount</fullName>
+        <inlineHelpText>거래의 소계에 기여하는 요금</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>DueDate</fullName>
+        <inlineHelpText>인보이스 기한 날짜</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>EffectiveDate</fullName>
+        <inlineHelpText>금융 거래가 적용되는 날짜</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>EventType</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemIntegrationMode</fullName>
+        <inlineHelpText>융자 인식에 사용된 외부 금융 시스템의 유형입니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemIntegrationStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemName</fullName>
+        <inlineHelpText>융자 인식에 사용된 외부 금융 시스템의 이름입니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemTransactionNumber</fullName>
+    </fields>
+    <fields>
+        <fullName>FinanceTransactionId</fullName>
+        <inlineHelpText>스냅샷의 상위 융자입니다. 융자의 참조 엔티티 유형이 인보이스, 지불, 대변 메모, 차변 메모 또는 환불일 경우에만 스냅샷의 필드에서 트랜잭션 값을 상속합니다.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ImpactAmount</fullName>
+        <inlineHelpText>융자가 고객의 재무에 미치는 영향</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>LegalEntityId</fullName>
+        <inlineHelpText>융자에 연결된 법인입니다. 외부 원장을 처리할 수 있도록 GL 규칙에 융자를 연결하기 위해 추가할 수 있는 선택적 조회입니다.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OriginalEventType</fullName>
+        <inlineHelpText>융자가 생성된 경우 융자의 이벤트 유형입니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalReferenceEntityType</fullName>
+        <inlineHelpText>융자가 생성된 경우 융자의 참조 엔티티 유형입니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityId</fullName>
+        <inlineHelpText>고객의 작업 결과로 만들어졌거나 업데이트된 재무 개체</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityType</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+        <inlineHelpText>요금 및 조정 총액입니다. 세액은 포함되지 않습니다.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TaxAmount</fullName>
+        <inlineHelpText>이벤트 작업의 결과로써 참조 엔티티 변경에 대한 세금 총액</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TotalAmountWithTax</fullName>
+        <inlineHelpText>소계에 세금을 더한 금액</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TransactionDate</fullName>
+        <inlineHelpText>융자가 발생한 날짜</inlineHelpText>
+    </fields>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>Balance</columns>
+        <columns>ReferenceEntity</columns>
+        <columns>TransactionDate</columns>
+        <columns>EffectiveDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Finance Balance Snapshots</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReferenceEntity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EventType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ImpactAmount</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ReferenceEntity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EventType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EffectiveDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ImpactAmount</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ReferenceEntity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EventType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EffectiveDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ImpactAmount</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReferenceEntity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EventType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ImpactAmount</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

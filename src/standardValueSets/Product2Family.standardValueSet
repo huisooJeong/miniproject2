@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>식자재</fullName>
+        <default>false</default>
+        <label>식자재</label>
+    </standardValue>
+    <standardValue>
+        <fullName>기호자재</fullName>
+        <default>false</default>
+        <label>기호자재</label>
+    </standardValue>
+    <standardValue>
+        <fullName>소모품</fullName>
+        <default>false</default>
+        <label>소모품</label>
+    </standardValue>
+    <standardValue>
+        <fullName>주류/음료</fullName>
+        <default>false</default>
+        <label>주류/음료</label>
+    </standardValue>
+    <standardValue>
+        <fullName>자산</fullName>
+        <default>false</default>
+        <label>자산</label>
+    </standardValue>
+</StandardValueSet>

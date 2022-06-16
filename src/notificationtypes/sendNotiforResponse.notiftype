@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>처리자 지정 성공 알림</customNotifTypeName>
+    <desktop>true</desktop>
+    <masterLabel>처리자 지정 성공 알림</masterLabel>
+    <mobile>true</mobile>
+    <slack>false</slack>
+</CustomNotificationType>

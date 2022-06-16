@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>민원 단계</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>oppositContents__c</fieldNames>
+        <picklistValueName>결재 대기</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>responseContents__c</fieldNames>
+        <fieldNames>authUserId__c</fieldNames>
+        <picklistValueName>처리 대기</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

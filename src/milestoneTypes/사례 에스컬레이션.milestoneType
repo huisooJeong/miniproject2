@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>사례를 에스컬레이션하는 반복 중대 사건을 설정합니다.</description>
+    <recurrenceType>recursIndependently</recurrenceType>
+</MilestoneType>

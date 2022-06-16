@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>질문</fullName>
+        <default>false</default>
+        <label>질문</label>
+    </standardValue>
+    <standardValue>
+        <fullName>건의/의견</fullName>
+        <default>false</default>
+        <label>건의/의견</label>
+    </standardValue>
+    <standardValue>
+        <fullName>문제/신고</fullName>
+        <default>false</default>
+        <label>문제/신고</label>
+    </standardValue>
+</StandardValueSet>
